@@ -14,7 +14,7 @@ class Point {
     const deltaX = otherPoint.x - this.x;
     const deltaY = otherPoint.y - this.y;
     const distance = Math.hypot(deltaX, deltaY);
-    return +distance.toFixed(2);
+    return +distance.toFixed(3);
   }
 }
 
